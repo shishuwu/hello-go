@@ -12,10 +12,12 @@
   
     go mod init github.com/shishuwu/hello-go
 
-- install current repo
-  - go to main go file, run
+- build/install
+  - go to **main** go file, then run
 
     go install (安装 此代码到 gopath/bin 下)
+
+    > go build - also work, it will generate in current path
 
   - the exe will be genereated under `%USERPROFILE%\go\bin\`
 
