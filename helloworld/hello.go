@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 // 引用包内的 go 文件
-import "github.com/shishuwu/hello-go/common/math"
+import (
+	"github.com/shishuwu/hello-go/common/math"
+	strutil "github.com/shishuwu/hello-go/common/string"
+)
 
 // 引用外部 包
 import (
@@ -14,9 +17,11 @@ func main() {
 	fmt.Println("Hello World!")
 
 	sum := math.Add(1, 2)
-
 	fmt.Println(sum)
-	
+
+	fmt.Println(strutil.ReverseRunes("!oG ,olleH"))
+
+
 	log.Debug("this is debug log")
 	log.Info("this is info log")
 	log.Warn("this is warn log")
