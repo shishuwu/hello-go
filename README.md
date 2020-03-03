@@ -22,6 +22,11 @@
   - the exe will be genereated under `%USERPROFILE%\go\bin\`
 
 
+- test
+  `go test ./...`
+  test all files in this module
+
+
 ## Code
 - import package inside module
   
