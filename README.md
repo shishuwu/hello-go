@@ -1,5 +1,11 @@
 # Go sample template (with mod)
 
+# Code structure
+    - go.mod
+    - common [module]
+    - server [module]
+    - hellowolrd [do some code entrance]
+
 ## Command line
     go mod init github.com/shishuwu/hello-go
 
